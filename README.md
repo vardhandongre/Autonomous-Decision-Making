@@ -27,3 +27,11 @@ This block is used when the input and output dimensions don't match up.
 Signs Dataset
 
 ![](Folder/img4.JPG)
+
+
+## Kalman Filter
+
+Kalman Filters are linear quadratic estimation tool that are ideal for systems which are continuously changing and where we have uncertain information about some dynamic system. The Filter allows us to seperate noise so that we can make an educated guess about what the system is going to do next.
+
+Here it is implemented for the problem of Wingrock, Wing rock is one type of lateral-directional instabilities at high angles of attack. is an oscillatory rolling motion which arises at high angles of attack in aircraft with highly-swept
+wings. It is a dynamic system in which the data contains noise, Kalman Filter is used to estimating a joint probability distribution over the variables and produce an accurate estimate of unknown variables. 
